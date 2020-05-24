@@ -1,12 +1,16 @@
 {
   "name": "webview-simple",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Um webview simples para auxilio no desenvolvimento web.",
+  "main": "main.js",
   "license": "MIT",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
   },
   "devDependencies": {
-    "electron": "^9.0.0"
+    "electron": "^9.0.0",
+    "electron-builder": "^22.6.1"
   }
 }
